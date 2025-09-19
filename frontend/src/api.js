@@ -1,4 +1,4 @@
-const API_URL = 'https://sw-beds-backend.onrender.com/api/beds';
+const API_URL = 'https://swbeds.onrender.com';
 
 export async function getBeds() {
   const res = await fetch(API_URL);
