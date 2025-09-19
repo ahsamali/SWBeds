@@ -9,6 +9,8 @@
     "homepage": "https://<ahsamali>.github.io/<SWBeds>"
   },
   "scripts": {
+    "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
     "start": "react-scripts start"
   }
 }
